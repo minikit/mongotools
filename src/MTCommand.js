@@ -1,6 +1,6 @@
+import path from "path";
 import MongoTools from "./MongoTools.js";
 import MTOptions from "./MTOptions.js";
-import path from "path";
 
 class MTCommand {
   constructor() {

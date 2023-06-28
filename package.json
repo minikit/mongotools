@@ -1,7 +1,7 @@
 {
   "name": "@minikit/mongotools",
   "description": "This project provides 2 wrappers mongodump and mongorestore",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "author": "Billgo <hi@billgo.me>",
   "bugs": "https://github.com/minikit/node-packages/issues",
@@ -26,7 +26,7 @@
     "test": "jest --coverage --passWithNoTests"
   },
   "dependencies": {
-    "dateformat": "^5.0.3",
+    "dayjs": "^1.11.8",
     "dropbox-v2-api": "^2.5.10-next.3"
   },
   "devDependencies": {

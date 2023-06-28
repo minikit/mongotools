@@ -1,6 +1,6 @@
 import fs from "fs";
 import child_process from "child_process";
-import dateFormat from "dateformat";
+import dayjs from "dayjs";
 
 const ssync = child_process.spawnSync;
 const fsPromise = fs.promises;
@@ -286,7 +286,7 @@ class MTWrapper {
 
 //~ private
 function getNowFormatted() {
-  return dateFormat(new Date(), "yyyy-mm-dd_HHMMss");
+  return dayjs(new Date()).format("yyyy-mm-dd_HHMMss");
 }
 
 function getOptionOrDefault(options, name, defaultValue) {
