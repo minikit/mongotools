@@ -192,7 +192,7 @@ Optional ssl related options
 Simple example:
 
 ```
-import { MongoTools, MTOptions, MTCommand } from "node-mongotools";
+import { MongoTools, MTOptions, MTCommand } from "@minikit/mongotools";
 var mongoTools = new MongoTools();
 
 mongoTools.mongodump({
@@ -218,7 +218,7 @@ mongoTools.mongodump({
 Simple example:
 
 ```
-import { MongoTools, MTOptions, MTCommand } from "node-mongotools";
+import { MongoTools, MTOptions, MTCommand } from "@minikit/mongotools";
 var mongoTools = new MongoTools();
 
 mongoTools.mongorestore({
